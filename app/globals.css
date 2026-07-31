@@ -25,6 +25,22 @@
   --text-display-40--letter-spacing: -0.02em;
   --text-display-40--font-weight: 700;
 
+  --text-display-32: 2rem;
+  --text-display-32--line-height: 100%;
+  --text-display-32--letter-spacing: -0.02em;
+  --text-display-32--font-weight: 700;
+
+  --text-display-20: 1.25rem;
+  --text-display-20--line-height: 100%;
+  --text-display-20--letter-spacing: -0.02em;
+  --text-display-20--font-weight: 700;
+
+  /* Display Emphasis */
+  --text-display-emphasis-64: 4rem;
+  --text-display-emphasis-64--line-height: 100%;
+  --text-display-emphasis-64--letter-spacing: -0.02em;
+  --text-display-emphasis-64--font-weight: 800;
+
   /* Headline Base */
   --text-headline-32: 2rem;
   --text-headline-32--line-height: 130%;
@@ -90,7 +106,7 @@
   --text-title-emphasis-22--font-weight: 600;
 
   --text-title-emphasis-20: 1.25rem;
-  --text-title-emphasis-20--line-height: 140%;
+  --text-title-emphasis-20--line-height: 100%;
   --text-title-emphasis-20--letter-spacing: -0.02em;
   --text-title-emphasis-20--font-weight: 600;
 
@@ -132,6 +148,11 @@
   --text-body-emphasis-15--font-weight: 500;
 
   /* Label Base */
+  --text-label-16: 1rem;
+  --text-label-16--line-height: 100%;
+  --text-label-16--letter-spacing: -0.02em;
+  --text-label-16--font-weight: 500;
+
   --text-label-17: 1.0625rem;
   --text-label-17--line-height: 140%;
   --text-label-17--letter-spacing: -0.02em;
@@ -148,6 +169,11 @@
   --text-label-13--font-weight: 500;
 
   /* Label Emphasis */
+  --text-label-emphasis-16: 1rem;
+  --text-label-emphasis-16--line-height: 100%;
+  --text-label-emphasis-16--letter-spacing: -0.02em;
+  --text-label-emphasis-16--font-weight: 600;
+
   --text-label-emphasis-17: 1.0625rem;
   --text-label-emphasis-17--line-height: 140%;
   --text-label-emphasis-17--letter-spacing: -0.02em;
@@ -162,6 +188,12 @@
   --text-label-emphasis-13--line-height: 140%;
   --text-label-emphasis-13--letter-spacing: -0.02em;
   --text-label-emphasis-13--font-weight: 600;
+
+  /* Caption */
+  --text-caption-12: 0.75rem;
+  --text-caption-12--line-height: 100%;
+  --text-caption-12--letter-spacing: -0.02em;
+  --text-caption-12--font-weight: 200;
 }
 
 @utility scrollbar-hidden {
